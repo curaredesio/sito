@@ -26,7 +26,7 @@ GEM
     execjs (2.7.0)
     fast_blank (1.0.0)
     fastimage (2.1.0)
-    ffi (1.9.18)
+    ffi (1.9.25)
     haml (4.0.7)
       tilt
     hamster (3.0.0)
@@ -85,7 +85,7 @@ GEM
       activesupport (>= 3.1)
     parallel (1.11.1)
     public_suffix (2.0.5)
-    rack (2.0.1)
+    rack (2.0.6)
     rack-livereload (0.3.16)
       rack
     rb-fsevent (0.9.8)
@@ -105,8 +105,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ffi (~> 1.9.24)
   middleman (~> 4.2)
   middleman-livereload
+  rack (~> 2.0.6)
 
 BUNDLED WITH
-   1.14.6
+   1.17.2
